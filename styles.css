@@ -6,20 +6,20 @@
     background-position: center ;
     /* background-size: cover; */
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     position: relative;
 }
 .box{
     /* background-color: black; */
     /* opacity: 0.48; */
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     position: absolute;
     top: 0;
     align-items: center;
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.8) 90%);;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 30%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.8) 90%);;
 }
 
 .navbar{
@@ -46,10 +46,8 @@
 }
 
 .hero{
-height: 70%;
+height: 50vh;
 width: 100%;
-padding: 50px;
-/* width: 500px; */
 display: flex;
 justify-content: center;
 align-items: center;
@@ -59,15 +57,44 @@ position: relative;
 .herotext{
     font-weight: 700;
     font-size: 32px;
+    text-align: center;
+}
+.text{
+    margin: 10px 0 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    width: 300px;
 }
 .email{
-    border: 0.1rem solid white;
-    border-radius: 5px;
-    height: 25px;
-    width: 50px;
-    font-size: 13px;
+    border-radius: 2px;
+    height: 40px;
+    width: 350px;
+    font-size: 15px;
+    padding: 6px;
+    outline: 1px solid white;
+    border: none;
+    color: white;
 }
 .getstartbtn{
-    width: 70px;
+    width: 160px;
     height: 50px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    border: none;
+}
+.emailbtn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+}
+.second-sec{
+    height: 100vh;
+    width: 100vw;
 }
