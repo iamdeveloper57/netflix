@@ -3,6 +3,8 @@ body{
     overflow-x: hidden;
     position: relative;
     box-sizing: border-box;
+    color: white;
+    width: 100vw;
 }
 .firstSec{
     background-image: url("heroimg.jpg");
@@ -39,14 +41,18 @@ body{
     .logo{
         width: 100px;
     }
-    .btn{
+    .bttn{
         width: 85px;
         padding: 0;
+        background-color: red;
     }
     .navbar{
         width: 100vw;
         margin: 0;
         padding: 24px;
+    }
+    .hero{
+        width: 100vw;
     }
 }
 
@@ -60,7 +66,7 @@ flex-direction: column;
 position: relative;
 padding-top: 15px;
 }
-.btn{
+.bttn{
     background-color: red;
 }
 .herotext{
@@ -77,14 +83,17 @@ padding-top: 15px;
 }
 .email{
     border-radius: 2px;
-    height: 40px;
+    height: 45px;
     width: 325px;
-    font-size: 15px;
+    font-size: 16px;
     padding: 6px;
-    outline: 1px solid white;
+    outline: none;
     border: none;
     color: white;
     background: transparent;
+}
+.email:focus{
+    outline: 1px solid white;
 }
 .getstartbtn{
     width: 160px;
@@ -105,10 +114,9 @@ padding-top: 15px;
     width: 400px;
 }
 .second-sec{
-    height: 75vh;
+    height: 70vh;
     width: 100vw;
     position: relative;
-    min-width: 10vw;
 }
 .second-text{
     display: flex;
@@ -124,7 +132,7 @@ padding-top: 15px;
 }
 .tv{
     position: relative;
-    height: 400px;
+    height: 350px;
     width: 85%;
     margin: 10px auto 0;
 }
@@ -134,15 +142,16 @@ padding-top: 15px;
 }
 .tv-video{
     position: absolute;
-    top: 0;
+    top: 25px;
     right: 0;
     bottom: 0;
     left: 0;
+    scale: 0.7;
 }
 /* mobile sec*/
 
 .mobile{
-    height: 60vh;
+    height: 80vh;
     width: 100vw;
     background-color: black;
     padding: 25px 0 0 0;
@@ -154,8 +163,13 @@ padding-top: 15px;
     background-color: black;
     padding: 48px 0 48px 0;
 }
-
 .hr{
     height: 6px;
     background-color: rgb(95, 95, 95);
+}
+.watch-everywhere{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    padding: 10px 0 10px 0;
 }
